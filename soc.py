@@ -56,9 +56,4 @@ def SOC(v):
     return soc
 
 
-battery_remaining = SOC(float(sys.argv[1]))
-
-if battery_remaining is not None:
-    battery_remaining = round(battery_remaining, 2)
-    print(f"{battery_remaining}%")
 
