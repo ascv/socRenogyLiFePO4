@@ -1,6 +1,3 @@
-import math
-import sys
-
 def SOC(v):
     """ Gets an approvimation of the state of charge.
 
