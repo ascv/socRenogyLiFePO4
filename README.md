@@ -13,7 +13,7 @@ Usage
 -----
 
 ```
-from socRenogy48vLiFeOP4 import SOC
+from socRenogy48VLiFePO4 import SOC
 
 # Compute battery remaining at 51.2V
 soc(51.2)
