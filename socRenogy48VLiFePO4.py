@@ -1,10 +1,9 @@
 def SOC(v):
-    """ Gets an approvimation of the state of charge.
+    """ Gets an approximation of the state of charge.
 
     Note that not all batteries are the same and they can have minor variations
-    in voltages. This function was created using data from a battery that might
-    be slightly different than your battery so the output might be a few
-    points off.
+    in voltages. This function was created using data from a battery that may
+    differ slightly than your battery.
 
     As a simple hack to account for some of this variance at the top and low
     ends, there is a small voltage buffer (+/- 2V) that will cause this
